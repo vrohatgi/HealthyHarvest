@@ -27,24 +27,32 @@
 </head>
 <body>
 <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-
             <div class="navbar-header">
-
-
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html"></a>
+                <a class="navbar-brand" href="index.html">HealthyHarvest</a>
             </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <p class="navbar-text">HealthyHarvest</p>
+            <form class="navbar-form navbar-right" role="login" method="get" action="errands.html">
 
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="City">
+                    <input type="text" class="form-control" placeholder="State">
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button> 
+            </form>
+            </div><!-- /.navbar-collapse -->
         <!-- /.container -->
         </div>
 
