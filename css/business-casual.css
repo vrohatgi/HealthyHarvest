@@ -17,6 +17,7 @@ h2.intro-text.text-center {
     color: #000000;
 }
 
+
 h1,
 h2,
 h3,
@@ -31,6 +32,7 @@ h6 {
 }
 
 p {
+
     font-size: 1.25em;
     line-height: 1.6;
     color: #000;
